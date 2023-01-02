@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+
+.skillContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 0;
+}
+
+.skillContainer__text{
+    flex: 0.6;
+    color: white;
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.skillContainer__text > h2{
+    font-size: 30px;
+}
+
+.skillConatiner__image{
+    flex: 0.4;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.skillConatiner__image > img{
+    width: 600px;
+    border-radius: 3px;
+    object-fit: contain;
+}
+
+.skillContainer__skillset > h5{
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.skillContainer__slider > .MuiLinearProgress-colorPrimary{
+    background-color: rgb(88,88,88);
+
+}
+
+.skillConatiner__slider1 > div > .MuiLinearProgress-barColorPrimary{
+    background-color: tomato;
+}
+.skillConatiner__slider2 > div > .MuiLinearProgress-barColorPrimary{
+    background-color: orange;
+}
+.skillConatiner__slider3 > div > .MuiLinearProgress-barColorPrimary{
+    background-color: yellow;
+}
+.skillConatiner__slider4 > div > .MuiLinearProgress-barColorPrimary{
+    background-color: red;
+}
